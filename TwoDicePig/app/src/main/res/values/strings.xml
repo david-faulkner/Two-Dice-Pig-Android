@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Two-Dice Pig</string>
+    <string name="playerOneScore"></string>
+    <string name="playerTwoScore"></string>
+</resources>
