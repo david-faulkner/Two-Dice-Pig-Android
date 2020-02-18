@@ -89,6 +89,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/playerTwoTotalText" />
 
+    <TextView
+        android:id="@+id/turnTotalText"
+        android:layout_width="76dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="25dp"
+        android:text="Trun Total:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/turnTotalValue"
+        android:layout_width="76dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/turnTotalText"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -98,7 +123,7 @@
         android:layout_marginTop="400dp"
         android:layout_marginEnd="162dp"
         android:layout_marginRight="162dp"
-        android:text="Button"
+        android:text="Roll"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,7 +138,7 @@
         android:layout_marginTop="21dp"
         android:layout_marginEnd="162dp"
         android:layout_marginRight="162dp"
-        android:text="Button"
+        android:text="Hold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
