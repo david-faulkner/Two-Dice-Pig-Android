@@ -2,4 +2,6 @@
     <string name="app_name">Two-Dice Pig</string>
     <string name="playerOneScore"></string>
     <string name="playerTwoScore"></string>
+    <string name="turnTotalScore"></string>
+    <string name="currentPlayer"></string>
 </resources>
