@@ -1,3 +1,12 @@
+/*
+Program Name: Two-Dice Pig
+Program Author: David Faulkner
+Description: This is a simple two-dice pig game built for the
+             Android platform. Two players take turns rolling
+             dice that will eventually add to their score. First
+             player to 50 wins.
+*/
+
 package com.example.two_dicepig;
 
 import androidx.appcompat.app.AppCompatActivity;
